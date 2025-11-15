@@ -7,6 +7,8 @@ This is a basic attempt at a Vehicle Inspection script that I made for our FiveM
 
 It is still a Work-in-Progress and will be updated as I go and test it!  
 
+You will need to create your own inspection.png graphic and place it in your inventory's images folder.
+
 Enjoy!  
 
 - Tex
