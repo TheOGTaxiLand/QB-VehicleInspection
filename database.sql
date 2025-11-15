@@ -1,0 +1,12 @@
+CREATE TABLE IF NOT EXISTS vehicle_inspections (
+    id INT AUTO_INCREMENT PRIMARY KEY,
+    citizenid VARCHAR(50) NOT NULL,
+    name VARCHAR(100) NOT NULL,
+    plate VARCHAR(20) NOT NULL,
+    passed TINYINT(1) NOT NULL DEFAULT 0,
+    checks LONGTEXT DEFAULT NULL,
+    created_at TIMESTAMP DEFAULT CURRENT_TIMESTAMP,
+    expires_at TIMESTAMP NULL DEFAULT NULL,
+    INDEX (plate),
+    INDEX (citizenid)
+);
